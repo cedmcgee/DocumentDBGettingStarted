@@ -33,7 +33,7 @@ namespace DocumentDBGettingStarted
 
                         var documents = client.CreateDocumentQuery(collection.SelfLink, "SELECT * FROM c WHERE c.FirstName = 'Michael'").ToList();
                      
-                        
+                         
 
 
                         foreach (Document document in documents)
